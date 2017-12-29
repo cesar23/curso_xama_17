@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="cur13_Layouts.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:cur13_Layouts.UWP"
+    RequestedTheme="Light">
+
+</Application>

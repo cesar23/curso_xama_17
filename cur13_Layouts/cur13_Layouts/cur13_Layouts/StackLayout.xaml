@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:cur13_Layouts"
+             x:Class="cur13_Layouts.StackLayout">
+    <ScrollView>
+        
+    
+    <StackLayout  Padding="30" Spacing="10">
+        <StackLayout>
+            <Label Text="Nombre" FontSize="Large"/>
+            <Entry x:Name="entryNombre"></Entry>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Edad" FontSize="Large"/>
+            <Entry x:Name="entryEdad"></Entry>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Genero" FontSize="Large"/>
+            <Entry x:Name="entryGenero"></Entry>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Email" FontSize="Large"/>
+            <Entry x:Name="entryEmail"></Entry>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Telefono" FontSize="Large"/>
+            <Entry x:Name="entryTelefono"></Entry>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Celular" FontSize="Large"/>
+            <Entry x:Name="entryCelular"></Entry>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Direccion" FontSize="Large"/>
+            <Entry x:Name="entryDireccion"></Entry>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Provincia" FontSize="Large"/>
+            <Entry x:Name="entryProvincia"></Entry>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Distrito" FontSize="Large"/>
+            <Entry x:Name="entryDistrito"></Entry>
+        </StackLayout>
+
+     
+
+    </StackLayout>
+    </ScrollView>
+
+</ContentPage>
