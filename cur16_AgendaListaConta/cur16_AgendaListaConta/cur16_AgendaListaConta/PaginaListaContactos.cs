@@ -35,7 +35,7 @@ namespace cur16_AgendaListaConta
 
             Master = new ContentPage
             {
-                Title = "Contactos",
+                Title = "Contactos Final",
                 Content = lista
             };
 
